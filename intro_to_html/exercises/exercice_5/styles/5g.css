@@ -1,0 +1,24 @@
+p {
+    font-family: Arial;
+    font-size: 17px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.first {
+    margin-bottom: 5px
+}
+.org {
+    font-weight: bold;
+}
+.name {
+    color: grey
+}
+.second {
+    
+    width: 550px;
+    margin-bottom: 15px;
+}
+.mention {
+    color:rgb(0, 157, 255);
+    cursor: pointer;
+}

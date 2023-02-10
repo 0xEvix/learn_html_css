@@ -1,0 +1,30 @@
+p {
+    font-family: Verdana;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px
+}
+.title {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 2px;
+}
+.beginner {
+    color: grey;
+    margin-bottom: 15px;
+}
+.course {
+    width: 350px;
+    margin-bottom: 14px;
+}
+.button {
+    color: white;
+    background-color: green;
+    border-radius: 8px;
+    border: none; 
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;    
+    cursor: pointer;
+}

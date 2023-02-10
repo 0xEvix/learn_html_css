@@ -1,0 +1,55 @@
+.amazon-back {
+    color:rgb(0, 113, 133);
+    transition: color 0.15s;
+}
+.amazon-back:hover {
+    color: orange
+}
+.amazon-nike {
+    font-size: 30px;
+    font-weight: bold;
+}
+.amazon-stock {
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+    font-size: 18px
+}
+.amazon-add{
+    color: black;
+    background: rgb(255, 216, 20);
+    border: none;
+    border-radius: 25px;
+    width: 110px;
+    height: 26px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.amazon-add:hover {
+    opacity: 0.7;
+}
+.amazon-add:active {
+    opacity: 0.3;
+}
+.amazon-buy{
+    color: black;
+    background: rgb(255, 164, 28);
+    border: none;
+    border-radius: 25px;
+    width: 110px;
+    height: 26px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: opacity 0.15s;
+}
+.amazon-buy:hover {
+    opacity: 0.7;
+}
+.amazon-buy:active {
+    opacity: 0.3;
+}

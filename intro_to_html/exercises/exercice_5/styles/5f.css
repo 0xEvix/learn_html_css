@@ -1,0 +1,18 @@
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: gray
+}
+.main_price {
+    color: black;
+    font-size: 27px;
+    margin-right: 5px;
+}
+.second_price {
+    color: green
+}
+.last_indicator {
+    color: red
+}

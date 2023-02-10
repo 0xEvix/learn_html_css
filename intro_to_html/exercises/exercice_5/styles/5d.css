@@ -1,0 +1,19 @@
+p {
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.title {
+    font-weight: bold;
+    font-size: 24px;
+}
+.learn {
+    color: blue;
+    cursor: pointer;
+}
+.learn:hover {
+    text-decoration: underline;
+}

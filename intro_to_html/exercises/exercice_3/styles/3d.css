@@ -1,0 +1,20 @@
+.ott {
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    border: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: margin 0.5s,
+        padding 0.5s;
+}
+.ott:hover {
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 15px;
+    padding-right: 15px
+}
