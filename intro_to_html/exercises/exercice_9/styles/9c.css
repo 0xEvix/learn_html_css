@@ -1,0 +1,23 @@
+.box {
+    border-width: 2px;
+    border-color: rgb(239, 238, 238);
+    border:1px;
+    border-style:solid;
+    width: 300px;
+    border-color: rgba(128, 128, 128, 0.5);
+}
+
+.question {
+    font-family: Arial;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 10px
+}
+
+.yes,
+.no {
+    margin-bottom: 20px;
+}
+.yes {
+    margin-left: 10px
+}

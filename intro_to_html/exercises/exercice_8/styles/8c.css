@@ -1,0 +1,18 @@
+.bar {
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    margin-left: 180px;
+    margin-top: 20px;
+    width: 400px;
+    box-shadow: 1px 1px 5px rgba(184, 182, 182, 0.5);
+
+}
+
+.img {
+    margin-left: 250px;
+    display: block;
+}
