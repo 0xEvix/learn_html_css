@@ -1,0 +1,70 @@
+.profile {
+    width: 400px;
+    height: 100px;
+    vertical-align: top;
+}
+
+.picture-box {
+    width: 100px;
+    height: 100px;
+    display:inline-block
+}
+
+.picture-profil {
+    width: 65px;
+    height: 65px;
+    border-radius: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.text-box {
+    vertical-align: top;
+    width: 142px;
+    height: 100px;
+    display: inline-block;
+
+}
+
+.button-box {
+    vertical-align: top;
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+}
+
+.button {
+    margin-top:30px;
+    margin-left:70px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(0, 119, 255);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Arial;
+}
+
+.un {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.deux {
+    color: gray;
+    margin-bottom: 10px;
+}
+.trois {
+    color: gray
+}
