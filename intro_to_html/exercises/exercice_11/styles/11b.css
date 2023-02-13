@@ -1,0 +1,11 @@
+.main-box {
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+}
+.third,
+.first {
+    background-color:lightblue;
+}
+.second {
+    background-color:lightpink
+}

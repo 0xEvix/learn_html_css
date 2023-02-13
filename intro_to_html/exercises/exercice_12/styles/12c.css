@@ -1,0 +1,11 @@
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.first,
+.second,
+.third,
+.fourth {
+    background-color: lightblue;
+}
