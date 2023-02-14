@@ -1,0 +1,20 @@
+.main-flexbox {
+    display: flex;
+    width: 300px;
+}
+.first-flexbox {
+    background-color: lightpink;
+    width: 100px;
+    display: flex; 
+    justify-content: center;
+
+}
+.second-box {
+    background-color: lightblue;
+    flex:200
+}
+
+p {
+    background-color: black;
+    color: white
+}
