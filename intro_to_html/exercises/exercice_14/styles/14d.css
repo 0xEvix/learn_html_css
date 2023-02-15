@@ -1,0 +1,56 @@
+body {
+    height: 3000px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sidebar {
+    background-color: green;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100px
+}
+
+.box {
+    width: 400px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 10px
+}
+
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 17px;
+}
+.modal {
+    font-size: 19px;
+    margin-bottom: 16px
+}
+
+button {
+    font-size: 15px
+}

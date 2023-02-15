@@ -4,11 +4,10 @@ div {
 
 .container {
     border: none;
-    height: 100px;
     width: 400px;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
-    padding: 10px
-
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin: 20px
 }
 
 .inbox {
@@ -20,6 +19,7 @@ div {
 
 .mail {
     display: flex;
+    margin-bottom: 20px
 }
 
 .profil-picture {
