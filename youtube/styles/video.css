@@ -2,6 +2,7 @@
 
 .thumbnail {
     width: 100%;
+    cursor: pointer;
 }
 
 .video-title {
@@ -9,7 +10,13 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.video-link {
+    text-decoration: none;
+    color: black
 }
 
 .video-info-grid {
@@ -17,14 +24,21 @@
     grid-template-columns: 50px 1fr;
 }
 
+.profil-picture-wrap {
+    display: inline-block;
+    position: relative;
+}
+
 .profil-picture {
-    width: 90%;
+    width: 36px;
     border-radius: 100px;
+    cursor: pointer;
 }
 
 .thumbnail-row {
-    margin-bottom: 12px;
-    position: relative
+    margin-bottom: 8px;
+    position: relative;
+    cursor: pointer;
 }
 
 .video-author,
@@ -44,18 +58,77 @@
     row-gap: 40px;
 }
 
+@media (max-width: 700px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
 .video-time {
     background-color: black;
     color: white;
     position: absolute;
-    font-family: Roboto, Arial;
+    
     font-size: 12px;
     font-weight: 500;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-right: 4px;
-    padding-left: 4px;
-    border-radius: 2px;
+    padding: 4px;
     bottom: 8px;
     right: 5px;
+}
+
+.channel-preview {
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
+    display: flex;
+    
+    width: 170px;
+    align-items: center;
+
+    position: absolute;
+    bottom: -10;
+    opacity: 0;
+    
+    
+    pointer-events: none;
+    white-space: nowrap
+}
+.channel-preview-picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+.channel-preview-profil-picture {
+    width: 40px;
+    border-radius: 40px
+}
+.channel-preview-text {
+    flex: 1;
+}
+.channel-preview-author {
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 3px
+}
+.channel-preview-subscribers {
+   color: rgb(143, 142, 142);
+   font-size: 12px
+}
+
+.profil-picture-wrap:hover .channel-preview {
+    opacity: 1;
 }
